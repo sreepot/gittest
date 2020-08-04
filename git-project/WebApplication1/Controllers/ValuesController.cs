@@ -11,7 +11,7 @@ namespace gittest.Controllers
     [ApiController]
     public class productsController : ControllerBase
     { 
-        //hello
+        
         [HttpGet]
         [Route("getprds")]
         public IEnumerable<product> getPrds()
